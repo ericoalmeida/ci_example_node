@@ -1,3 +1,11 @@
+---
+name: Issue Template
+about: ''
+title: ''
+labels: ''
+assignees: ''
+---
+
 # Descrição
 
 > Descreva o problema
