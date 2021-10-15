@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ericoalmeida/ci_example_node/issues"
   },
-  "homepage": "https://github.com/ericoalmeida/ci_example_node#readme"
+  "homepage": "https://github.com/ericoalmeida/ci_example_node#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
 }
