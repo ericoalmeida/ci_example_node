@@ -1,10 +1,10 @@
-import { Router } from 'express'
+import { Router } from 'express';
 
 const routes = Router();
 
 routes.get('/', (_, response) => {
   response.json({
-    status: "Working properly!"
+    status: 'Working properly!',
   });
 });
 
