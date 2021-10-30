@@ -1,13 +1,11 @@
 {
     "env": {
-        "es6": true,
+        "es2021": true,
         "node": true
     },
     "extends": [
-      "airbnb-base",
-      "plugin:@typescript-eslint/recommended",
-      "prettier/@typescript-eslint/recommended",
-      "prettier/@typescript-eslint"
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -15,14 +13,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint",
-        "eslint-plugin-import-helpers"
+        "@typescript-eslint"
     ],
     "rules": {
-    },
-    "settings": {
-      "import/resolver":{
-        "typescript":{}
     }
-  }
 }
